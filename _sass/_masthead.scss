@@ -31,12 +31,12 @@
 
     a {
       text-decoration: none;
-      //color: $nav-text-color; // custom
+      color: $nav-text-color; // custom
     }
 
-    //a:hover {
-    //  color: $nav-text-color-hover; // custom
-    //}
+    a:hover {
+      color: $nav-text-color-hover; // custom
+    }
   }
 }
 
