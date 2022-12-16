@@ -19,6 +19,8 @@
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
+    background-color: #00000000; // custom
+
     @include breakpoint($x-large) {
       max-width: $x-large;
     }
@@ -29,12 +31,12 @@
 
     a {
       text-decoration: none;
-      color: $nav-text-color; // custom
+      //color: $nav-text-color; // custom
     }
 
-    a:hover {
-      color: $nav-text-color-hover; // custom
-    }
+    //a:hover {
+    //  color: $nav-text-color-hover; // custom
+    //}
   }
 }
 
