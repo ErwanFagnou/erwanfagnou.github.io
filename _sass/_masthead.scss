@@ -11,15 +11,13 @@
           animation-delay: 0.15s;
   z-index: 20;
 
-  background-color: $nav-background-color; // custom
+  background-color: $masthead-background-color; // custom
 
   &__inner-wrap {
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
-
-    background-color: #00000000; // custom
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -31,11 +29,6 @@
 
     a {
       text-decoration: none;
-      color: $nav-text-color; // custom
-    }
-
-    a:hover {
-      color: $nav-text-color-hover; // custom
     }
   }
 }
