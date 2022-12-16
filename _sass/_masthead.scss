@@ -4,7 +4,7 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
+  //border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
@@ -12,6 +12,7 @@
   z-index: 20;
 
   background-color: $masthead-background-color; // custom
+  box-shadow: 0 0 10px $masthead-background-color; // custom
 
   &__inner-wrap {
     @include container;
