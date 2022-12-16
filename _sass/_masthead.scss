@@ -11,6 +11,9 @@
           animation-delay: 0.15s;
   z-index: 20;
 
+  // set background color
+  background-color: $lighter-gray;
+
   &__inner-wrap {
     @include container;
     @include clearfix;
