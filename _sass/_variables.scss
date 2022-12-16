@@ -60,6 +60,18 @@ $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
+/* Customizing the jekyll colors =================== */
+// Define theme colors
+$theme-color              : #00336cf0;
+
+// Navigation top bar
+$nav-background-color       : $primary-color;
+$nav-text-color             : #fff;
+$nav_text-color-hover       : #fff;
+
+/* end =================== */
+
+
 $primary-color              : #7a8288;
 $success-color              : #62c462;
 $warning-color              : #f89406;

@@ -11,8 +11,7 @@
           animation-delay: 0.15s;
   z-index: 20;
 
-  // set background color
-  background-color: $lighter-gray;
+  background-color: $nav-background-color; // custom
 
   &__inner-wrap {
     @include container;
@@ -30,6 +29,11 @@
 
     a {
       text-decoration: none;
+      color: $nav-text-color; // custom
+    }
+
+    a:hover {
+      color: $nav-text-color-hover; // custom
     }
   }
 }
