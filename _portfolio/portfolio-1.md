@@ -1,6 +1,6 @@
 ---
 title: "Challenge Swarm Rescue"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/projects/swarm_rescue_play.gif'>"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/projects/challenge_swarm_rescue/swarm_rescue_play.gif'>"
 collection: portfolio
 ---
 
