@@ -131,17 +131,19 @@
   @include breakpoint($small) {
     @include gallery(5 of 10);
     .archive__item-teaser {
-      max-height: 200px;
+      //max-height: 200px;
+      height: 200px; // custom
     }
   }
 
   @include breakpoint($medium) {
     margin-left: 0; /* reset before mixin does its thing*/
     margin-right: 0; /* reset before mixin does its thing*/
-    @include gallery(2.5 of 10);
+    @include gallery(3.3 of 10);  // custom
 
     .archive__item-teaser {
-      max-height: 120px;
+      //max-height: 120px;
+      height: 170px; // custom
     }
 
     .archive__item-excerpt {

@@ -18,7 +18,7 @@
         {% if post.teaser_type == 'image'%}
             <img src="{{ post.teaser }}">
         {% elsif post.teaser_type == 'video'%}
-            <video autoplay muted loop width=500px height=300px src="{{ post.teaser }}"></video>
+            <video autoplay muted loop width=500px height=300px src="{{ post.teaser }}" style="object-fit: cover;max-width: -webkit-fill-available;max-height: -webkit-fill-available;"></video>
         {% endif %}
     </div>
 
