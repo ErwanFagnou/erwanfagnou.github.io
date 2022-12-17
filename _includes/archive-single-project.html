@@ -15,11 +15,26 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <div class="archive__item-teaser">
-        {% if post.teaser_type == 'image'%}
-            <img src="{{ post.teaser }}">
-        {% elsif post.teaser_type == 'video'%}
-            <video autoplay muted loop width=500px height=300px src="{{ post.teaser }}" style="object-fit: cover;max-width: -webkit-fill-available;max-height: -webkit-fill-available;"></video>
+        {% if post.link %}
+            <a href="{{ post.link }}">
+        {% else %}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">
         {% endif %}
+                {% if post.teaser_type == 'image'%}
+                    <img src="{{ post.teaser }}">
+                {% elsif post.teaser_type == 'video'%}
+                    <video muted loop
+                           width=500px height=300px
+                           src="{{ post.teaser }}"
+                           style="object-fit: cover;max-width: -webkit-fill-available;max-height: -webkit-fill-available;"
+                           {% if post.teaser_video_hover %}
+                               onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                           {% else %}
+                               autoplay>
+                           {% endif %}
+                    </video>
+                {% endif %}
+            </a>
     </div>
 
     <h2 class="archive__item-title" itemprop="headline">
