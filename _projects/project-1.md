@@ -4,7 +4,10 @@ excerpt: "Short description of portfolio item number 1"
 collection: projects
 teaser: "/images/projects/challenge_swarm_rescue/debug.mp4"
 teaser_type: "video"
+teaser_video_hover: false
 ---
+
+Winner of a team contest organized by DGA (Direction Générale de l'Armement) about controlling drones in a simulation to explore an unknown hostile environment and bring back injured people. Our approach used different machine learning algorithms to clean and organize the sensor data, with an MCTS search to make decisions.
 
 ![name](/images/projects/challenge_swarm_rescue/swarm_rescue_play.gif)
 
