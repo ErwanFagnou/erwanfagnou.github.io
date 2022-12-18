@@ -1,6 +1,6 @@
 ---
 title: "[Contest] Swarm Rescue Challenge"
-excerpt: "A 6-month contest about controlling drones to rescue people in a crumbled building."
+excerpt: "A 6-month contest about controlling drones to rescue people in a collapsed building."
 collection: projects
 teaser: "/images/projects/challenge_swarm_rescue/debug.mp4"
 teaser_type: "video"
@@ -25,11 +25,12 @@ As the contest is being held again this year, please understand that we cannot d
 
 
 <figure>
-  <img src="/images/projects/challenge_swarm_rescue/swarm_rescue_play.gif" alt/>
+  <img src="/images/projects/challenge_swarm_rescue/swarm_rescue_play.gif"/>
   <figcaption>Sample video of our drones (in blue) rescuing people (in orange) by bringing them back to the rescue zone (in red). The gray square in the middle is a zone that kills the drones that enter it.</figcaption>
 </figure>
 
 <figure>
-<video autoplay muted loop src="/images/projects/challenge_swarm_rescue/debug.mp4" style="width: -webkit-fill-available;"></video>
+<div class="fluid-width-video-wrapper">
+<video autoplay muted loop src="/images/projects/challenge_swarm_rescue/debug.mp4" style="width: -webkit-fill-available;"></video></div>
 <figcaption>Everything one drone (in black) sees. What is displayed is computed from its observations and the messages received from the other drones. Its planned path is shown with solid white lines, and the lines are dashed for the other drones. Black lines represent the graph used to compute the trajectory in the building. Note that drones cannot communicate if they are far from each other, so information can take some time before being updated.</figcaption>
 </figure>
