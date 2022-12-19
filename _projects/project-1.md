@@ -23,14 +23,12 @@ As the contest is being held again this year, please understand that we cannot d
 - **Communication**: The drones communicated their knowledge to the drones in their vicinity, with a lot of mind-bending algorithms to merge the information received, and to reduce the amount of data sent.
 - **Planning**: Once the map was built, we used corner detection to create a more abstract graph of the map (the black lines in the video below). We then used an MCTS algorithm to explore the possible decisions and choose the best one for each drone. The drones were trying to maximize a heuristic function, which was taking into account the number of people saved, the time spent, the area explored, etc.
 
+{% include project_video.html
+path="/images/projects/challenge_swarm_rescue/swarm_rescue_full.mp4"
+caption="Sample video of our drones (in blue) rescuing people (in orange) by bringing them back to the rescue zone (in red). The colored rectangles are special zones: red deactivates communication, blue deactivates the GPS, and gray kills the drones that enter it."
+%}
 
-<figure>
-  <img src="/images/projects/challenge_swarm_rescue/swarm_rescue_play.gif"/>
-  <figcaption>Sample video of our drones (in blue) rescuing people (in orange) by bringing them back to the rescue zone (in red). The gray square in the middle is a zone that kills the drones that enter it.</figcaption>
-</figure>
-
-<figure>
-<div class="fluid-width-video-wrapper">
-<video autoplay muted loop src="/images/projects/challenge_swarm_rescue/debug.mp4" style="width: -webkit-fill-available;"></video></div>
-<figcaption>Everything one drone (in black) sees. What is displayed is computed from its observations and the messages received from the other drones. Its planned path is shown with solid white lines, and the lines are dashed for the other drones. Black lines represent the graph used to compute the trajectory in the building. Note that drones cannot communicate if they are far from each other, so information can take some time before being updated.</figcaption>
-</figure>
+{% include project_video.html
+path="/images/projects/challenge_swarm_rescue/debug.mp4"
+caption="Everything one drone (in black) sees. What is displayed is computed from its observations and the messages received from the other drones. Its planned path is shown with solid white lines, and the lines are dashed for the other drones. Black lines represent the graph used to compute the trajectory in the building. Note that drones cannot communicate if they are far from each other, so information can take some time before being updated."
+%}

@@ -1,0 +1,7 @@
+{% include base_path %}
+
+<figure>
+  <div class="fluid-width-video-wrapper">
+<video controls autoplay muted loop src="{{ include.path }}" style="width: -webkit-fill-available;"></video></div>
+  {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>

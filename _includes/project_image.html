@@ -1,0 +1,6 @@
+{% include base_path %}
+
+<figure>
+<img src="{{ include.path }}">
+  {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>
