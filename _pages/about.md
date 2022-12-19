@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /
 title: "About Me"
 excerpt: "About me"
@@ -13,6 +14,8 @@ I am currently a machine learning student, doing my last year before graduating 
 - reinforcement learning (either theoretical or more applied, and inverse RL)
 - the maths behind deep learning (in particular, optimization and initialization)
 - design of new deep learning architectures (replacing or modifying standard layers to improve a model or adapt it to a particular data structure for example; this definition is naturally rather broad, and corresponds to a more application-oriented part of deep learning)
+
+---
 
 # Education
 
