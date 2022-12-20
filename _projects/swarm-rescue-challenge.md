@@ -1,6 +1,6 @@
 ---
 title: "[Contest] Swarm Rescue Challenge"
-excerpt: "A 6-month contest about controlling drones to rescue people in a collapsed building."
+excerpt: "A 6-month team contest about controlling drones to rescue people in a collapsed building, where we won the 1st prize!"
 collection: projects
 teaser: "/images/projects/challenge_swarm_rescue/debug.mp4"
 teaser_type: "video"
