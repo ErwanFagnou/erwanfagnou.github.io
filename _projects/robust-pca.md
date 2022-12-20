@@ -5,6 +5,7 @@ collection: projects
 teaser: "/images/projects/robust_pca/rpca.png"
 teaser_type: "image"
 teaser_video_hover: false
+dates: "July - Aug. 2021"
 ---
 
 During summer 2021, I did an internship at INRIA (French Institute for Research in Computer Science), supervised by [Jean-Marc Lasgouttes](https://who.rocq.inria.fr/Jean-Marc.Lasgouttes/) ([RITS](https://team.inria.fr/rits/) team) and [Cyril Furtlehner](https://www.lri.fr/membre.php?mb=488) ([LRI](https://www.lri.fr/index.php) team). They had developed a machine learning algorithm for traffic prediction <a href="#furtlehner22">[Furtlehner 2022]</a>, and they were wondering whether the algorithm could be improved by preprocessing the data with a robust PCA algorithm. Indeed, the input data is that of hundreds of sensors subject to errors and failures. However, it was not so simple to clean the data, because unpredictable events happen a lot in traffic.
