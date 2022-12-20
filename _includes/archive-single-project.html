@@ -14,14 +14,14 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <div class="archive__item-teaser">
+    <div class="archive__item-teaser" style="position: relative">
         {% if post.link %}
             <a href="{{ post.link }}">
         {% else %}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
         {% endif %}
                 {% if post.teaser_type == 'image'%}
-                    <img src="{{ post.teaser }}">
+                    <img src="{{ post.teaser }}" style="object-fit: cover;height: -webkit-fill-available;">
                 {% elsif post.teaser_type == 'video'%}
                     <video muted loop
                            width=500px height=300px
