@@ -1,6 +1,6 @@
 ---
 title: "Handwritten Mathematical Expression Recognition"
-excerpt: "Designing a deep learning model baser on the transformer architecture to read the image of a mathematical expression and convert it to LateX."
+excerpt: "Designing a deep learning model based on the transformer architecture to read the image of a mathematical expression and convert it to LateX."
 collection: projects
 teaser: "/images/projects/hmer/teaser.png"
 teaser_type: "image"
