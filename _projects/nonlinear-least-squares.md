@@ -12,7 +12,7 @@ dates: "Feb. 2021 - Sept. 2021"
 
 When I learned about linear least squares and their closed form solution, during my first year in engineering school, I was already familiar with deep learning, so I noticed the similarity with the Mean Squared Error (MSE) loss. I wondered if there was a way to solve the optimization problem in a similar way.
 
-Indeed, a 1-layered neural network with one output, an activation function $f$ and MSE loss, is equivalent to a linear least squares problem, which can be formulated as:
+Indeed, a single layer neural network with one output, an activation function $f$ and MSE loss, is equivalent to a linear least squares problem, which can be formulated as:
 
 $$\arg\min_ {\theta\in\mathbb{R}^d}\mathcal{L}(\theta), \quad \mathcal{L}(\theta)= \sum_{i=1}^n \left( f(x_i^T \theta) - y_i \right)^2$$
 
