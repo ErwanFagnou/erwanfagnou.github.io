@@ -46,7 +46,7 @@
     </h2>
 
     {% if post.dates %}
-      <p class="page__date"><i>{{ post.dates }}</i></p>
+      <i style="font-size: small;">{{ post.dates }}</i>
     {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
