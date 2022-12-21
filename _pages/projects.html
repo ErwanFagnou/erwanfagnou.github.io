@@ -8,7 +8,8 @@ author_profile: true
 {% include base_path %}
 
 <div class="grid__wrapper">
-{% for post in site.projects %}
-  {% include archive-single-project.html type="grid" %}
-{% endfor %}
+  {% assign sorted = site.projects | sort: 'sorting_key' | reverse %}
+  {% for post in sorted %}
+    {% include archive-single-project.html type="grid" %}
+  {% endfor %}
 </div>

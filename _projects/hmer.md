@@ -6,6 +6,7 @@ teaser: "/images/projects/hmer/teaser.png"
 teaser_type: "image"
 teaser_video_hover: false
 dates: "Nov. 2022 - Ongoing"
+sorting_key: 992211
 ---
 
 ## Context

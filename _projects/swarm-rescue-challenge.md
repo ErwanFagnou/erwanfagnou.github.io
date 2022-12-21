@@ -6,6 +6,7 @@ teaser: "/images/projects/challenge_swarm_rescue/debug.mp4"
 teaser_type: "video"
 teaser_video_hover: false
 dates: "Oct. 2021 - March 2022"
+sorting_key: 202203
 ---
 
 <div style="text-align: right"> <a href="https://github.com/embaba/swarm-rescue" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true" style="color: #000"></i>Github of the contest</a> </div>

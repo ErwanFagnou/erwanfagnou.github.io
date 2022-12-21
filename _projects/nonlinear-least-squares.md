@@ -6,6 +6,7 @@ teaser: "/images/projects/nonlinear-ls/opt_LS.png"
 teaser_type: "image"
 teaser_video_hover: false
 dates: "Feb. 2021 - Sept. 2021"
+sorting_key: 202109
 ---
 
 ## Context

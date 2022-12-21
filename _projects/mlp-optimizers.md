@@ -6,6 +6,7 @@ teaser: "/images/projects/mlp_optimizers/results_lowres.png"
 teaser_type: "image"
 teaser_video_hover: false
 dates: "Sept. 2021 - Ongoing"
+sorting_key: 992109
 ---
 
 ## Context
