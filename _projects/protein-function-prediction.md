@@ -1,6 +1,6 @@
 ---
 title: "[Contest] Protein Function Prediction"
-excerpt: "A Kaggle chalenge to predict the function of proteins from their sequences and 3D structure."
+excerpt: "A Kaggle challenge about predicting the function of proteins from their sequences and 3D structure."
 collection: projects
 teaser: "/images/projects/protein_function_prediction/proteins.jpg"
 teaser_type: "image"
@@ -31,7 +31,7 @@ For each of these proteins we were given the following information:
 
 The difficulty of the task was that the dataset was very small, leading to a lot of overfitting.
 
-Our first approach was to use graph convolutional networks (GCN), to take advantage of the graph structure of the protein. The performance was however quite poor. We then tried to pretrain language models on the sequences to generate better features, which proved to be useful. However, the game changer was the pretrained model ESM-2 <a href="#yuan22"> [Lin 2022]</a>, which is a very large RoBERTa-like model trained on masked language modeling. Our final model uses features extracted from the hidden layers of the pretrained ESM-2 model with 3 billion parameters, while the classification head is a multihead attention (to aggregate the features in a fixed-size vector) followed by an MLP.
+Our first approach was to use graph convolutional networks (GCN), to take advantage of the graph structure of the protein. The performance was however quite poor. We then tried to pretrain language models on the sequences to generate better features, which proved to be useful. However, the game changer was the pretrained model ESM-2 <a href="#lin22"> [Lin 2022]</a>, which is a very large RoBERTa-like model trained on masked language modeling. Our final model uses features extracted from the hidden layers of the pretrained ESM-2 model with 3 billion parameters, while the classification head is a multihead attention (to aggregate the features in a fixed-size vector) followed by an MLP.
 
 A few additional techniques were used to improve the validation loss of the model, like dropout, label smoothing, and ensemble methods (averaging the predictions of dozens of models).
 
@@ -40,5 +40,5 @@ For more details about our attempts and the final results, see our full [report]
 ## References
 
 <div style="text-indent: -3ch; margin-left: 3ch">
-<p><a id="esm2"></a>[1] Zeming Lin, Halil Akin, Roshan Rao, Brian Hie, Zhongkai Zhu, Wenting Lu, Allan dos Santos Costa, Maryam Fazel-Zarandi, Tom Sercu, Sal Candido, Alexander Rives. 2022. <i>Language models of protein sequences at the scale of evolution enable accurate structure prediction</i>. bioRxiv. DOI: <a href="https://doi.org/10.1101/2022.07.20.500902">https://doi.org/10.1101/2022.07.20.500902</a></p>
+<p><a id="lin22"></a>[1] Zeming Lin, Halil Akin, Roshan Rao, Brian Hie, Zhongkai Zhu, Wenting Lu, Allan dos Santos Costa, Maryam Fazel-Zarandi, Tom Sercu, Sal Candido, Alexander Rives. 2022. <i>Language models of protein sequences at the scale of evolution enable accurate structure prediction</i>. bioRxiv. DOI: <a href="https://doi.org/10.1101/2022.07.20.500902">https://doi.org/10.1101/2022.07.20.500902</a></p>
 </div>
