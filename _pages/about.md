@@ -9,11 +9,7 @@ redirect_from:
   - /about.html
 ---
   
-I am currently a machine learning student, doing my last year before graduating a Master of Science, at the École Normale Supérieure Paris-Saclay (MVA Master), and Télécom Paris, in France. I am passionate about many fields of artificial intelligence, and love doing projects (either for school or for fun), involving different fields of deep learning.
-
-- reinforcement learning (either theoretical or more applied, and inverse RL)
-- the maths behind deep learning (in particular, optimization and initialization)
-- design of new deep learning architectures (replacing or modifying standard layers to improve a model or adapt it to a particular data structure for example; this definition is naturally rather broad, and corresponds to a more application-oriented part of deep learning)
+I am currently a machine learning student, doing my last year before graduating a Master of Science, at the École Normale Supérieure Paris-Saclay (MVA Master), and Télécom Paris, in France. I am passionate about many fields of artificial intelligence, and love doing projects (either for school or for fun), involving different fields of deep learning. My favorite areas are reinforcement learning (either theoretical or more applied), optimization in deep learning, and more generally the mathematics behind deep learning.
 
 ---
 
