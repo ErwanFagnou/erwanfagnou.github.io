@@ -41,7 +41,8 @@ Courses chosen for the 1st semester:
 <ul>
 <li>Theoretical Foundations of Deep Learning</li>
 <li>Deep Reinforcement Learning</li>
-<li>Kernel Methods for Machine Learning</li>
+<li>Deep Learning in Practice</li>
+<li>Machine Learning for Time Series</li>
 </ul>
 </div>
 
