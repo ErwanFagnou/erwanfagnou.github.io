@@ -1,0 +1,45 @@
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "url": "{{ prepend: site.baseurl | prepend: site.url }}",
+        "headline": "{{ site.title }}",
+        "about": "{{ site.description }}",
+        "image": [
+            "images/favicon-96x96.png?v=M44lzPylqQ"
+        ],
+        "isAccessibleForFree": "True",
+        "isPartOf": {
+            "@type": ["CreativeWork", "Product"],
+            "name": "Erwan Fagnou's personal website",
+            "productID": "erwanFagnou.github.io"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "{{ site.author.name }}",
+            "description": "{{ site.author.bio }}",
+            "sameAs": "https://erwanfagnou.github.io/",
+            "image": {
+                "@type": "ImageObject",
+                "url": "image/{{ site.author.avatar }}"
+            },
+            "givenName": "Erwan",
+            "familyName": "Fagnou",
+            "publishingPrinciples": "https://erwanfagnou.github.io/"
+        },
+        "inLanguage": "en-US",
+        "additionalType": "CreativeWork",
+        "alternateName": "Erwan Fagnou",
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.name }}",
+            "description": "{{ site.description }}",
+            "sameAs": "https://erwanfagnou.github.io",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "images/favicon-96x96.png?v=M44lzPylqQ"
+            },
+            "publishingPrinciples": "https://erwanfagnou.github.io/"
+        }
+    }
+</script>

@@ -7,6 +7,8 @@ teaser_type: "image"
 teaser_video_hover: false
 dates: "Dec. 2022 - Jan. 2023"
 sorting_key: 202301
+date_published: 2023-01-31
+date_modified: 2023-01-31
 ---
 
 <div style="text-align: right"> <a href="https://github.com/ErwanFagnou/Protein_function_prediction" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true" style="color: #000"></i> Our code</a> </div>

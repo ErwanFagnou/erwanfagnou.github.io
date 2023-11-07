@@ -1,0 +1,53 @@
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{ page.title }}",
+        "description": "{{ page.excerpt }}",
+        {% if page.teaser %}
+        {% if page.teaser_type == 'image' %}
+        "image": ["{{page.teaser}}"],
+        {% elsif page.teaser_type == 'video' %}
+        "video": ["{{page.teaser}}"],
+        {% endif %}
+        {% else %}
+        "image": ["images/favicon-96x96.png?v=M44lzPylqQ"],
+        {% endif %}
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+        },
+        "datePublished": "{{page.date_published}}",
+        "dateModified": "{% if page.date_modified %}{{page.date_modified}}{% else %}{{page.date_published}}{% endif %}",
+        "isAccessibleForFree": "True",
+        "isPartOf": {
+            "@type": ["CreativeWork", "Product", "Blog"],
+            "name": "Erwan Fagnou's personal website",
+            "productID": "erwanfagnou.github.io"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "{{ site.author.name }}",
+            "description": "{{ site.author.bio }}",
+            "sameAs": "https://erwanfagnou.github.io/",
+            "image": {
+                "@type": "ImageObject",
+                "url": "image/{{ site.author.avatar }}"
+            },
+            "givenName": "Erwan",
+            "familyName": "Fagnou",
+            "publishingPrinciples": "https://erwanfagnou.github.io/"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.name }}",
+            "description": "{{ site.description }}",
+            "sameAs": "https://erwanfagnou.github.io",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "images/favicon-96x96.png?v=M44lzPylqQ"
+            },
+            "publishingPrinciples": "https://erwanfagnou.github.io/"
+        }
+    }
+</script>
