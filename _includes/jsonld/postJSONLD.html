@@ -17,8 +17,8 @@
             "@type": "WebPage",
             "@id": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
         },
-        "datePublished": "{{page.date_published}}",
-        "dateModified": "{% if page.date_modified %}{{page.date_modified}}{% else %}{{page.date_published}}{% endif %}",
+        "datePublished": "{% if page.date_published %}{{page.date_published}}T08:00:00+01:00{% endif %}",
+        "dateModified": "{% if page.date_modified %}{{page.date_modified}}T08:00:00+01:00{% elsif page.date_published %}{{page.date_published}}T08:00:00+01:00{% endif %}",
         "isAccessibleForFree": "True",
         "isPartOf": {
             "@type": ["CreativeWork", "Product", "Blog"],
