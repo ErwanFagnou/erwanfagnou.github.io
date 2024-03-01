@@ -7,7 +7,31 @@ redirect_from:
   - /about.html
 ---
   
-I am currently a machine learning student, doing my last year before graduating a Master of Science, at the École Normale Supérieure Paris-Saclay (MVA Master), and Télécom Paris, in France. I am passionate about many fields of artificial intelligence, and love doing projects (either for school or for fun), involving different fields of deep learning. My favorite areas are reinforcement learning (either theoretical or more applied), optimization in deep learning, and more generally the mathematics behind deep learning.
+I am currently a **PhD student in deep learning**. I am passionate about many fields of artificial intelligence, such as optimization, NLP, reinforcement learning...
+
+My research is about **frugal ML**: I aim at making deep learning models more resource-efficient while maintaining their performance -- the term "resource" referring for instance to time, memory, money, carbon emissions, etc. The PhD focuses mainly on transformers applied to NLP, as they are by far the most resource-consuming models in the field (hello ChatGPT). This is still a very broad topic, and multiple angles of attack are considered -- from the architecture of the model to the optimization of the training process. A particular attention is given to adaptive models, i.e. models that can adapt their architecture to the task at hand dynamically, which is a promising way to make them more efficient and waste less resources.
+
+---
+
+# PhD
+
+<div>
+    <a href="https://www.lamsade.dauphine.fr/en.html" style="text-decoration: none">
+        <img src="/images/about/logo_dauphine_lamsade.png" style="height: 50px" >
+    </a>
+    <a href="https://www.lamsade.dauphine.fr/wp/miles/" style="text-decoration: none">
+        <img src="/images/about/logo_miles.png" style="height: 50px">
+    </a>
+</div>
+
+December _2023 - today_
+
+PhD student in the MILES team of the LAMSADE lab, at Université Dauphine - PSL, under the supervision of [Pr. Alexandre Allauzen](https://allauzen.github.io/). It is founded by the PEPR SHARP (Sharp Theoretical and Algorithmic Principles for frugal Machine Learning), which involves several actors collaborating towards frugal machine learning.
+
+Title: **Adaptive and Frugal Deep Learning Architectures**
+
+More details [here](https://www.theses.fr/en/s377244).
+
 
 ---
 
@@ -22,28 +46,8 @@ I am currently a machine learning student, doing my last year before graduating 
 <em>Master 2: Mathematics, Vision and Learning (MVA)</em>
 <div style="margin-left: 30px;">
 
-<p>Selective Master's degree in machine learning, preparing the students for research and a PhD. See the <a href="https://www.master-mva.com/">official website</a> (in French), or <a href="https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-year-2-mathematics-vision-learning">here</a> (in English).</p>
-
-
-
-Courses chosen for the 1st semester:
-<ul>
-<li>Deep Learning</li>
-<li>Advanced Learning for Text and Graph Data</li>
-<li>Reinforcement Learning</li>
-<li>Fundamentals of Reproducible Research</li>
-<li>Geometric Data Analysis</li>
-</ul>
-
-2nd semester:
-<ul>
-<li>Theoretical Foundations of Deep Learning</li>
-<li>Deep Reinforcement Learning</li>
-<li>Deep Learning in Practice</li>
-<li>Machine Learning for Time Series</li>
-</ul>
+<p>Selective Master's degree in machine learning, preparing the students for research. See the <a href="https://www.master-mva.com/">official website</a> (in French), or <a href="https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-year-2-mathematics-vision-learning">here</a> (in English).</p>
 </div>
-
 
 <div>
     <img src="/images/about/logo_telecom_paris.png" style="height: 60px">

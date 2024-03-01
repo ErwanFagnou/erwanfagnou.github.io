@@ -1,2 +1,5 @@
 _site/
 .idea
+Gemfile.lock
+run.bat
+TODO.md
