@@ -1,0 +1,44 @@
+<!-- List of publications in a pretty format, in html:
+- title, authors, year, venue, link to the paper
+- a collapsible abstract
+-->
+
+<h1>Publications</h1>
+
+<div>
+    <div style="width: 7%; font-size: 0.8em; display: inline-block; vertical-align: top; margin-right: 10px; margin-top: 10px;">2024</div>
+    <div style="width: 90%; display: inline-block">
+        <b>Chain and Causal Attention for Efficient Entity Tracking</b><br>
+        <i>Erwan Fagnou</i>, Paul Caillon, Blaise Delattre, Alexandre Allauzen<br>
+        <i>EMNLP 2024</i>
+        <a href="https://arxiv.org/abs/2404.12345" target="_blank">[PDF]</a>
+        <button class="abstract-btn" data-abstract="abstract-chacal">Show Abstract</button>
+        <div class="abstract" id="abstract-chacal">
+            This paper investigates the limitations of transformers for entity-tracking tasks in large language models. We identify a theoretical constraint, showing that transformers require at least $\log_2 (n+1)$ layers to handle entity tracking with $n$ state changes. To address this issue, we propose an efficient and frugal enhancement to the standard attention mechanism, enabling it to manage long-term dependencies more efficiently. 
+            By considering attention as an adjacency matrix, our model can track entity states with a single layer.
+            Empirical results demonstrate significant improvements in entity tracking datasets while keeping competitive performance on standard natural language modeling. Our modified attention allows us to achieve the same performance with drastically fewer layers. 
+            Additionally, our enhanced mechanism reveals structured internal representations of attention. Extensive experiments on both toy and complex datasets validate our approach. Our contributions include theoretical insights, an improved attention mechanism, and empirical validation.
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    // Function to toggle specific abstract based on data-attribute
+    document.querySelectorAll('.abstract-btn').forEach(function(button) {
+        button.addEventListener('click', function() {
+            const abstractId = this.getAttribute('data-abstract');
+            const abstractDiv = document.getElementById(abstractId);
+
+            if (abstractDiv.style.display === "none" || abstractDiv.style.display === "") {
+                abstractDiv.style.display = "block";
+                this.textContent = "Hide Abstract";
+            } else {
+                abstractDiv.style.display = "none";
+                this.textContent = "Show Abstract";
+            }
+        });
+    });
+</script>

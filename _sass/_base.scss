@@ -313,3 +313,48 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+
+// Tabs
+.tab-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tab {
+  background-color: #ddd;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab-content {
+  display: none;
+}
+
+.active-tab {
+  background-color: rgb(86, 149, 179);
+}
+
+.active-content {
+  display: block;
+}
+
+
+// Collapsible abstract
+.abstract-btn {
+  font-size: 0.8em;
+  // margin-top: 10px;
+  cursor: pointer;
+  border: 1px solid #618cce;
+  background-color: #f3f8ff;
+}
+
+.abstract {
+  display: none;
+  // margin-top: 10px;
+  background-color: #f3f8ff;
+  padding: 10px;
+  font-size: 0.8em;
+  border: 1px solid #618cce;
+}
