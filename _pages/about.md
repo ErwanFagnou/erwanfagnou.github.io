@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
   
-I am currently a **PhD student in deep learning**. I am passionate about many fields of artificial intelligence, such as optimization, NLP, reinforcement learning...
+I am currently a **PhD student** at LAMSADE (Université Paris Dauphine-PSL, Paris, France) under the supervision of Alexandre Allauzen. I am part of the MILES team which is dedicated to machine learning.
 
-My research is about **frugal ML**: I aim at making deep learning models more resource-efficient while maintaining their performance -- the term "resource" referring for instance to time, memory, money, carbon emissions, etc. The PhD focuses mainly on transformers applied to NLP, as they are by far the most resource-consuming models in the field (hello ChatGPT). This is still a very broad topic, and multiple angles of attack are considered -- from the architecture of the model to the optimization algorithm used to train it.
+My research is about **frugal machine learning**: I aim at making deep learning models more resource-efficient while maintaining their performance -- the term "resource" referring for instance to time, memory, money, carbon emissions, etc. The PhD focuses mainly on transformers applied to NLP, as they are by far the most resource-consuming models in the field (hello ChatGPT). This is still a very broad topic, and multiple angles of attack are considered -- from the architecture of the model to the optimization algorithm used to train it.
 
 ---
 <div class="tab-container">

@@ -326,14 +326,27 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   background-color: #ddd;
   padding: 10px 20px;
   cursor: pointer;
+  // border: 2px solid #618cce;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  border-top: 3px solid #ffffffff;
+  border-bottom: 3px solid #ffffffff;
 }
 
 .tab-content {
   display: none;
+  // border: 2px solid #618cce;
 }
 
 .active-tab {
   background-color: rgb(86, 149, 179);
+  color: white;
+  border-top: 3px solid rgb(86, 149, 179);
+  border-bottom: 3px solid rgb(86, 149, 179);
 }
 
 .active-content {
@@ -352,7 +365,8 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 .abstract {
   display: none;
-  // margin-top: 10px;
+  text-align: justify;
+  text-justify: inter-word;
   background-color: #f3f8ff;
   padding: 10px;
   font-size: 0.8em;
