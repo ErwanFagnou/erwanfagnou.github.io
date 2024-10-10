@@ -157,7 +157,7 @@ hr {
   display: block;
   margin: 1em 0;
   border: 0;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid $light-gray;
 }
 
 /* lists */
@@ -334,19 +334,18 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -o-user-select: none;
   user-select: none;
   border-top: 3px solid #ffffffff;
-  border-bottom: 3px solid #ffffffff;
 }
 
 .tab-content {
   display: none;
   // border: 2px solid #618cce;
+  // border-right: 6px solid rgb(86, 149, 179)
 }
 
 .active-tab {
   background-color: rgb(86, 149, 179);
   color: white;
   border-top: 3px solid rgb(86, 149, 179);
-  border-bottom: 3px solid rgb(86, 149, 179);
 }
 
 .active-content {
