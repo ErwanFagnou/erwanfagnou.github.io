@@ -7,9 +7,9 @@ redirect_from:
 ---
 
 <!-- Picture and short bio -->
-<div style="display: flex; align-items: center; margin-bottom: 30px; margin-left: 5%; margin-right: 10%">
+<div style="display: flex; align-items: center; margin-bottom: 30px; margin-left: 5%; margin-right: 5%">
     <!-- Picture -->
-    <div style="width: 15%; display: inline-block">
+    <div style="width: 300px; display: inline-block">
         <img src="{{ site.author.avatar | prepend: "/images/" | prepend: base_path }}" alt={{ site.author.name }} style="max-height: 250px">
     </div>
     <!-- Short bio -->
@@ -30,10 +30,10 @@ redirect_from:
                 <span>{{ site.author.email }}</span>
             </div>
             <!-- Google Scholar -->
-            <!-- <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
                 <i class="fas fa-fw fa-graduation-cap" style="margin-right: 10px"></i>
                 <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-            </div> -->
+            </div>
         </div>
         <!-- Right Column (Location) -->
         <div style="width: 48%;">
