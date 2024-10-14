@@ -32,7 +32,7 @@ redirect_from:
             <!-- Google Scholar -->
             <div style="display: flex; align-items: center; margin-bottom: 10px;">
                 <i class="fas fa-fw fa-graduation-cap" style="margin-right: 10px"></i>
-                <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+                <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>
             </div>
         </div>
         <!-- Right Column (Location) -->
