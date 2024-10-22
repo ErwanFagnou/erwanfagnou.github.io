@@ -18,7 +18,7 @@ redirect_from:
         <p>My research is about <strong>frugal machine learning</strong>: I aim at making deep learning models more resource-efficient while maintaining their performance — the term "resource" referring for instance to time, memory, money, carbon emissions, etc. The PhD focuses mainly on transformers applied to NLP, as they are by far the most resource-consuming models in the field (hello ChatGPT). This is still a very broad topic, and multiple angles of attack are considered — from the architecture of the model to the optimization algorithm used to train it.</p>
     </div>
 </div>
-
+ 
 <!-- Contact info -->
 <div style="display: flex; justify-content: center; align-items: center;">
     <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 70%">
