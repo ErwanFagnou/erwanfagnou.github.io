@@ -6,22 +6,76 @@
 <h1>Publications</h1>
 
 <div style="display: flex; align-items: top; margin-bottom: 30px">
-    <div style="width: 7%; font-size: 0.8em; display: inline-block; margin-right: 10px; margin-top: 0.3em">Nov. 2024</div>
+    <div style="width: 7%; font-size: 0.8em; display: inline-block; margin-right: 10px; margin-top: 0.3em">May 2025</div>
     <div style="width: 90%; display: inline-block">
-        <b>Chain and Causal Attention for Efficient Entity Tracking</b><br>
-        <i>Erwan Fagnou</i>, Paul Caillon, Blaise Delattre, Alexandre Allauzen<br>
-        <i>EMNLP 2024</i>
-        <a href="https://arxiv.org/abs/2410.05565" target="_blank">[pdf]</a>
-        <button class="abstract-btn" data-abstract="abstract-chacal">Show Abstract</button>
-        <div class="abstract" id="abstract-chacal">
-            This paper investigates the limitations of transformers for entity-tracking tasks in large language models. We identify a theoretical constraint, showing that transformers require at least $\log_2 (n+1)$ layers to handle entity tracking with $n$ state changes. To address this issue, we propose an efficient and frugal enhancement to the standard attention mechanism, enabling it to manage long-term dependencies more efficiently. 
-            By considering attention as an adjacency matrix, our model can track entity states with a single layer.
-            Empirical results demonstrate significant improvements in entity tracking datasets while keeping competitive performance on standard natural language modeling. Our modified attention allows us to achieve the same performance with drastically fewer layers. 
-            Additionally, our enhanced mechanism reveals structured internal representations of attention. Extensive experiments on both toy and complex datasets validate our approach. Our contributions include theoretical insights, an improved attention mechanism, and empirical validation.
+        <b>Bridging the Theoretical Gap in Randomized Smoothing</b><br>
+        Blaise Delattre, Paul Caillon, Quentin Barthélemy, <u>Erwan Fagnou</u>, Alexandre Allauzen<br>
+        <i>AISTATS 2025</i>
+        <a href="https://openreview.net/forum?id=AZ6T7HdCRt" target="_blank">[pdf]</a>
+        <button class="abstract-btn" data-abstract="abstract-bridgingthegap">Show Abstract</button>
+        <div class="abstract" id="abstract-bridgingthegap">
+            Randomized smoothing has become a leading approach for certifying adversarial robustness in machine learning models.
+            However, a persistent gap remains between theoretical certified robustness and empirical robustness accuracy.
+            This paper introduces a new framework that bridges this gap by leveraging Lipschitz continuity for certification
+            and proposing a novel, less conservative method for computing confidence intervals in randomized smoothing. Our
+            approach tightens the bounds of certified robustness, offering a more accurate reflection of model robustness in
+            practice. Through rigorous experimentation we show that our method improves the robust accuracy, compressing the
+            gap between empirical findings and previous theoretical results. We argue that investigating local Lipschitz
+            constants and designing ad-hoc confidence intervals can further enhance the performance of randomized smoothing.
+            These results pave the way for a deeper understanding of the relationship between Lipschitz continuity and
+            certified robustness.
         </div>
     </div>
 </div>
 
+
+<div style="display: flex; align-items: top; margin-bottom: 30px">
+    <div style="width: 7%; font-size: 0.8em; display: inline-block; margin-right: 10px; margin-top: 0.3em">Apr. 2025</div>
+    <div style="width: 90%; display: inline-block">
+        <b>Accelerated Training through Iterative Gradient Propagation Along the Residual Path</b><br>
+        <u>Erwan Fagnou</u>, Paul Caillon, Blaise Delattre, Alexandre Allauzen<br>
+        <i>ICLR 2025 (Oral)</i>
+        <a href="https://arxiv.org/abs/2501.17086" target="_blank">[pdf]</a>
+        <button class="abstract-btn" data-abstract="abstract-highwaybp">Show Abstract</button>
+        <div class="abstract" id="abstract-highwaybp">
+            Despite being the cornerstone of deep learning, backpropagation is criticized for its inherent sequentiality,
+            which can limit the scalability of very deep models. Such models faced convergence issues due to vanishing gradient,
+            later resolved using residual connections. Variants of these are now widely used in modern architecture. However,
+            the computational cost of backpropagation remains a major burden, accounting for most of the training time. Taking
+            advantage of residual-like architectural designs, we introduce Highway backpropagation, a parallelizable iterative
+            algorithm that approximates backpropagation, by alternatively i) accumulating the gradient estimates along the
+            residual path, and ii) backpropagating them through every layer in parallel. This algorithm is naturally derived from
+            a decomposition of the gradient as the sum of gradients flowing through all paths and is adaptable to a diverse set of
+            common architectures, ranging from ResNets and Transformers to recurrent neural networks. Through an extensive empirical
+            study on a large selection of tasks and models, we evaluate Highway-BP and show that major speedups can be achieved
+            with minimal performance degradation.
+        </div>
+    </div>
+</div>
+
+
+<div style="display: flex; align-items: top; margin-bottom: 30px">
+    <div style="width: 7%; font-size: 0.8em; display: inline-block; margin-right: 10px; margin-top: 0.3em">Nov. 2024</div>
+    <div style="width: 90%; display: inline-block">
+        <b>Chain and Causal Attention for Efficient Entity Tracking</b><br>
+        <u>Erwan Fagnou</u>, Paul Caillon, Blaise Delattre, Alexandre Allauzen<br>
+        <i>EMNLP 2024</i>
+        <a href="https://arxiv.org/abs/2410.05565" target="_blank">[pdf]</a>
+        <button class="abstract-btn" data-abstract="abstract-chacal">Show Abstract</button>
+        <div class="abstract" id="abstract-chacal">
+            This paper investigates the limitations of transformers for entity-tracking tasks in large language models.
+            We identify a theoretical constraint, showing that transformers require at least $\log_2 (n+1)$ layers to
+            handle entity tracking with $n$ state changes. To address this issue, we propose an efficient and frugal
+            enhancement to the standard attention mechanism, enabling it to manage long-term dependencies more efficiently. 
+            By considering attention as an adjacency matrix, our model can track entity states with a single layer.
+            Empirical results demonstrate significant improvements in entity tracking datasets while keeping competitive
+            performance on standard natural language modeling. Our modified attention allows us to achieve the same
+            performance with drastically fewer layers. Additionally, our enhanced mechanism reveals structured internal
+            representations of attention. Extensive experiments on both toy and complex datasets validate our approach.
+            Our contributions include theoretical insights, an improved attention mechanism, and empirical validation.
+        </div>
+    </div>
+</div>
 
 
 
